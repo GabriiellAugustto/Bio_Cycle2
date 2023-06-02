@@ -1,56 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical"
-    android:background="@drawable/bio4">
+    tools:context=".Login_Activity">
 
-
-    <ImageView
-    android:layout_marginTop="150dp"
-        android:layout_gravity="center"
-        android:layout_width="300dp"
-        android:layout_height="200sp"
-        android:src="@drawable/Bio2"/>
-
-    <View
-        android:layout_gravity="center"
-        android:layout_width="300dp"
-        android:layout_height="2dp"
-        android:background="#024005"/>
-
-    <TextView
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bio Cycle"
-        android:textSize="30sp"
-        android:textColor="#59951C"
-        android:textStyle="bold"
-        />
-
-    <Button
-        android:id="@+id/btn1"
-        style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Surface"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        android:text="Entar"
-        android:textColor="#59951c"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-
-    <ProgressBar
-        android:layout_marginTop="40dp"
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
